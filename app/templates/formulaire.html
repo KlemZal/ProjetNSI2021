@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Accueil - Le saviez-vous ?</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/custom.css')}}" />
+        <script type="text/javascript" src="{{url_for('static', filename='javascript.js')}}"></script>
+        
+    
+    
+    
+    </head>
+    <body>
+        <header>
+            <div id="Titre">
+                <h1>Le saviez vous ?</h1>
+            </div>
+            <div id="menu">
+                <a href="/index" class="button">Accueil</a>
+                <a href="/enternew" class="button">Ajoutez une anedocte</a>
+                <a href="/BDD" class="button">Visualiser la base de donnée</a>
+            </div>
+        
+        </header>
+        
+        
+        
+            
+        <div id="Application">
+            <section id="formulaire">
+                <form action="{{ url_for('formulaire') }}" method="POST">
+                    <h2>Vous avez une anedocte ? Mettez-la ici.</h2>
+                    <p><label>Votre pseudonyme :</label><input type="text" id="pseudo" name="pseudo" required minlength="3" maxlength="12" size="15"></p>
+                    <p><label>Votre âge :</label><input type="text" id="age" name="age" required minlength="1" maxlength="3" size="5"></p>
+                    <p><textarea name="anedocte" id="aned" rows="20" cols="100" placeholder="Votre anedocte ici."></textarea></p>
+                    <p><input type="submit" value="Envoyer"></p>
+                </form>
+                
+            </section>
+        </div>
+        
+        
+        <footer>
+            <div id="footer">
+                <div id="miscs">
+                </div>
+            </div>
+        </footer>
+    
+    
+    </body>
+
+
+
+
+
+
+
+</html>

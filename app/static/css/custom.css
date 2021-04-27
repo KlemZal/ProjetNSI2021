@@ -1,0 +1,185 @@
+
+
+#Titre
+{
+    text-align: center;
+    background: url(html-color-codes-color-tutorials-hero.jpg);
+    font-family: fantasy;
+    margin-bottom: 12px;
+    border: 5px solid black;
+    font-size: 36px;
+    margin: 0;
+    
+    
+    
+}
+
+#menu
+{
+    background: url(html-color-codes-color-tutorials-hero.jpg);
+    font-family: fantasy;
+    border: 5px solid black;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.button
+{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: gray;
+    color: black;
+    margin-right: 4px;
+    margin-left: 4px;
+    
+    
+    
+}
+
+.button:hover
+{
+    background-color: lightgray;
+    color: gray;
+    
+}
+
+
+
+body
+{
+    background: url(abstract-classic-blue-background_23-2148420118.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0 16px;
+    
+}
+
+
+
+#Boite1
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+#presentation1
+{
+    font-family: cursive;
+    text-align: left;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 24px;
+    margin-bottom: 24px;
+    width: 35%;
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+#presentation2
+{
+    font-family: cursive;
+    text-align: left;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    width: 35%;
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-size: cover;
+    
+}
+
+#presentation3
+{
+    font-family: cursive;
+    text-align: center;
+    border-radius: 10px;
+    width: 43%;
+    border: 5px solid black;
+    margin-top: 24px;
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-size: cover;
+    margin: auto;
+    
+
+    
+}
+
+#Logo
+{
+    float: left;
+    text-align: left;
+    width: 96px;
+    height: 96px;
+    
+}
+
+#img1
+{
+    background-color: #FF7A7A;
+    text-align: center;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 80px;
+    
+}
+.center
+{
+    margin: auto;
+}
+
+#formulaire
+{
+    font-family: cursive;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 75%;
+    border: 5px solid black;
+    margin-top: 24px;
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-size: cover;
+
+    
+}
+
+#BDD
+{
+    font-family: cursive;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 75%;
+    border: 5px solid black;
+    margin-top: 24px;
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    background-size: cover;
+
+    
+}
+td
+{
+    background-color: white;
+}
+
+#parent
+{
+    display: none;
+}
+

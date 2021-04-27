@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>La base de donnée - Le saviez-vous ?</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/custom.css')}}" />
+        <script type="text/javascript" src="{{url_for('static', filename='javascript.js')}}"></script>
+        
+    
+    
+    
+    </head>
+    <body>
+        <header>
+            <div id="Titre">
+                <h1>Le saviez vous ?</h1>
+            </div>
+            <div id="menu">
+                <a href="/index" class="button">Accueil</a>
+                <a href="/enternew" class="button">Ajoutez une anedocte</a>
+                <a href="/BDD" class="button">Visualiser la base de donnée</a>
+            </div>
+        
+        </header>
+        
+        
+        
+            
+        <div id="BDD">
+            <section id="formulaire">
+                <table border = 5>
+                    <thead>
+                        <td width="15">Pseudonyme</td>
+                        <td width="5">Age</td>
+                        <td width="5000">Anedoctes</td>
+                    </thead>
+                    
+                    {% for row in rows %}
+                        <tr>
+                            <td>{{row["pseudo"]}}</td>
+                            <td>{{row["age"]}}</td>
+                            <td>{{row["anedoctes"]}}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </section>
+        </div>
+        
+        
+        <footer>
+            <div id="footer">
+                <div id="miscs">
+                </div>
+            </div>
+        </footer>
+    
+    
+    </body>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,44 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Accueil - Le saviez-vous ?</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/custom.css')}}" />
+        
+    
+    
+    
+    </head>
+    <body>
+        <header>
+            <div id="Titre">
+                <h1>Le saviez vous ?</h1>
+            </div>
+            <div id="menu">
+                <a href="/index" class="button">Accueil</a>
+                <a href="/enternew" class="button">Ajoutez une anedocte</a>
+                <a href="/BDD" class="button">Visualiser la base de donnée</a>
+                <a href="/account" class="button">Comptes</a>
+            </div>
+        
+        </header>
+        
+        <div id="formulaire">
+            <form action="#" method="POST">
+                <h2>Vous souhaitez créer un compte ? faites-le ici.</h2>
+                <p><label>Votre pseudonyme :</label><input type="text" id="pseudonyme" name="pseudonyme" required minlength="3" maxlength="12" size="15"></p>
+                <p><label>Votre mot de passe :</label><input type="password" id="mdp" name="mdp" required minlength="1" maxlength="3" size="5"></p>
+                <p id="parent"><label>Vous êtes un enfant ? Super ! indiquez le pseudo de votre parent</label><input type="text" id="node"></p>
+                <p><input type="submit" value="Envoyer"></p>
+            </form>
+            
+        
+        </div>
+        
+        
+        
+        <footer>
+            
+        </footer>
+    
+    
+    </body>
